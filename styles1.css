@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css2?family=poppins:wght@200;400;500;600;800;&family=VT323&display=swap);
+
+body {
+    font-family: poppins, sans-serif;
+    background-color: lightseagreen;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20pxs;
+}
+
+ul li ul.dropdown-menu li {
+    display: block;
+}
+
+ul li ul.dropdown-menu {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    cursor: pointer;
+}
+
+ul li:hover ul.dropdown-menu {
+    display: block;
+}
+
+ul.dropdown-menu:hover {
+    background: none;
+}
+
+header {
+    max-width: 1200px;
+    margin: 40px auto;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+.welcome {
+    max-width: 1200px;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 40px auto;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-column: span 3;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    grid-template-columns: 1fr 1fr;
+}
+
+.welcome p {
+    padding-top: 30px;
+    margin: 10px;
+    color: white;
+    line-height: 1.4;
+    font-size: 30px;
+}
+
+.welcome img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+section {
+    border-bottom: 1px solid black;
+}
+
+.grid-container {
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px auto;
+    gap: 60px;
+    display: grid;
+}
+
+article img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.taco {
+    background-color: gray;
+    line-height: 1.4;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.taco:hover {
+    transform: translateY(-10px);
+}
+
+.taco h3 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px 0 5px 0;
+    text-align: center;
+}
+
+.taco p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 10px 10px 10px;
+    color: red;
+}
+
+.chicken {
+    background-color: gray;
+    line-height: 1.4;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.chicken:hover {
+    transform: translateY(-10px);
+}
+
+.chicken h3 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px 0 5px 0;
+    text-align: center;
+}
+
+.chicken p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 10px 10px 10px;
+    color: red;
+}
+
+.pork {
+    background-color: gray;
+    line-height: 1.4;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.pork:hover {
+    transform: translateY(-10px);
+}
+
+.pork h3 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px 0 5px 0;
+    text-align: center;
+}
+
+.pork p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 10px 10px 10px;
+    color: red;
+}
+
+button {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .welcome {
+        grid-template-columns: 1fr;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

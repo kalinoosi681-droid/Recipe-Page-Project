@@ -1,0 +1,48 @@
+.background {
+    background-color: gray;
+}
+
+button {
+    background-color: white;
+    color: blue;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.recipe-container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    display: flexbox;
+    margin: 0 auto;
+    border-radius: 8px;
+    border-bottom: 14px;
+}
+
+.para {
+    font-size: 20px;
+    width: 70%;
+    line-height: 1.4;
+}
+
+.recipe-intro {
+    border-bottom: 2px solid white;
+}
+
+.ingredients,
+.instructions {
+    font-size: 20px;
+    line-height: 1.4;
+}
