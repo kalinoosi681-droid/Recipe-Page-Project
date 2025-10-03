@@ -4,7 +4,9 @@ A simple, clean, and responsive recipe page built with **HTML5** and **CSS3**.
 This project demonstrates the use of semantic HTML, styled text, images, and basic layout techniques.
 
 ## ✨ Features
-- Semantic HTML structure (header, main, footer)  
+- Semantic HTML structure (header, main, footer)
+- Css Grid
+- Hover effects 
 - Styled recipe sections (ingredients, instructions)  
 - Responsive design that works on desktop and mobile  
 
